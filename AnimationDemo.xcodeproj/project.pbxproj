@@ -16,6 +16,8 @@
 		D879DB37207CA0760048EA2C /* AnimationDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D879DB36207CA0760048EA2C /* AnimationDemoTests.m */; };
 		D879DB42207CA0760048EA2C /* AnimationDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D879DB41207CA0760048EA2C /* AnimationDemoUITests.m */; };
 		D879DB51207CA1440048EA2C /* NTVBasicAnimationTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D879DB50207CA1440048EA2C /* NTVBasicAnimationTool.m */; };
+		D879DB5A207CAA300048EA2C /* NTVView.m in Sources */ = {isa = PBXBuildFile; fileRef = D879DB59207CAA2F0048EA2C /* NTVView.m */; };
+		D879DB5D207CAA880048EA2C /* SLNRadarView.m in Sources */ = {isa = PBXBuildFile; fileRef = D879DB5C207CAA870048EA2C /* SLNRadarView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,10 @@
 		D879DB43207CA0760048EA2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D879DB4F207CA1440048EA2C /* NTVBasicAnimationTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTVBasicAnimationTool.h; sourceTree = "<group>"; };
 		D879DB50207CA1440048EA2C /* NTVBasicAnimationTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NTVBasicAnimationTool.m; sourceTree = "<group>"; };
+		D879DB58207CAA2F0048EA2C /* NTVView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTVView.h; sourceTree = "<group>"; };
+		D879DB59207CAA2F0048EA2C /* NTVView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTVView.m; sourceTree = "<group>"; };
+		D879DB5B207CAA870048EA2C /* SLNRadarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLNRadarView.h; sourceTree = "<group>"; };
+		D879DB5C207CAA870048EA2C /* SLNRadarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLNRadarView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +114,10 @@
 				D879DB1E207CA0760048EA2C /* AppDelegate.m */,
 				D879DB20207CA0760048EA2C /* ViewController.h */,
 				D879DB21207CA0760048EA2C /* ViewController.m */,
+				D879DB58207CAA2F0048EA2C /* NTVView.h */,
+				D879DB59207CAA2F0048EA2C /* NTVView.m */,
+				D879DB5B207CAA870048EA2C /* SLNRadarView.h */,
+				D879DB5C207CAA870048EA2C /* SLNRadarView.m */,
 				D879DB4F207CA1440048EA2C /* NTVBasicAnimationTool.h */,
 				D879DB50207CA1440048EA2C /* NTVBasicAnimationTool.m */,
 				D879DB23207CA0760048EA2C /* Main.storyboard */,
@@ -271,7 +281,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D879DB22207CA0760048EA2C /* ViewController.m in Sources */,
+				D879DB5A207CAA300048EA2C /* NTVView.m in Sources */,
 				D879DB2D207CA0760048EA2C /* main.m in Sources */,
+				D879DB5D207CAA880048EA2C /* SLNRadarView.m in Sources */,
 				D879DB51207CA1440048EA2C /* NTVBasicAnimationTool.m in Sources */,
 				D879DB1F207CA0760048EA2C /* AppDelegate.m in Sources */,
 			);
